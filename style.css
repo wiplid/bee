@@ -1,0 +1,91 @@
+header{
+    background-color: orange;
+}
+.block{
+    margin:20px 0 50px 220px;
+}
+.sitename{
+    margin-bottom:10px;
+    font:20px Arial;
+}
+nav{
+    display: flex;
+    width: 600px;
+}
+.container{
+    display: flex;
+}
+main{
+    width: 600px;
+    padding: 20px;
+}
+.right{
+    width: 300px;
+    margin-right:20px;
+    padding:20px;
+}
+footer{
+    padding: 30px 0;
+    text-align: center;
+    background-color: orange;
+}
+.block{
+    margin:20px 0 50px 220px;
+}
+.sitename{
+    margin-bottom: 10px;
+    font: 20px arial;
+}
+nav{
+    display: flex;
+    width: 600px;
+}
+nav a{
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font: 15px Arial;
+    background-color: orange;
+}
+nav a:hover, nav a :active{
+    color: red;
+    text-decoration: underline;
+}
+main h1{
+    font:20px "Times New Roman";
+}
+main p{
+    margin: 10px 0;
+    text-align: justify;
+    font:15px Arial;
+}
+table{
+    border:1px solid black;
+}
+.price th:first-child{
+    width: 10%;
+    margin: 100px;
+
+} 
+.price th:nth-child(2) {
+    width: 40%;
+    margin: 100px;
+
+}
+
+.price th:nth-child(3) {
+  width: 40%;
+  margin: 100px;
+  
+}
+td, th{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+}
+.thead{
+  text-align: center;
+  vertical-align: middle;
+}
+thead{
+    background-color: rgb(185, 185, 185);
+}
